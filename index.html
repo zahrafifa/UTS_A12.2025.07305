@@ -1,0 +1,467 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Panasea Hijab | Koleksi Hijab Elegan</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <!-- CSS sendiri -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#beranda">Panasea Hijab</a>
+
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarMenu"
+                    aria-controls="navbarMenu"
+                    aria-expanded="false"
+                    aria-label="Buka menu navigasi">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#beranda">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#produk">Produk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tentang">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pesan">Pesan Sekarang</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- BERANDA -->
+    <section id="beranda" class="hero">
+        <div class="container">
+            <div class="row align-items-center g-5">
+
+                <div class="col-lg-6 hero-text">
+                    <p class="subjudul">Tampil Cantik Setiap Hari</p>
+
+                    <h1>Anggun dalam Setiap Langkah</h1>
+
+                    <p class="hero-description">
+                        Temukan koleksi hijab yang nyaman, elegan,
+                        dan cocok untuk menemani aktivitasmu sehari-hari.
+                        Tampil percaya diri dengan pilihan hijab favoritmu.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#produk" class="btn btn-hijab">
+                            Lihat Koleksi
+                        </a>
+
+                        <a href="#tentang" class="btn btn-outline-hijab">
+                            Tentang Kami
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- MASUKKAN FOTO BANNER DI SINI -->
+                    <img src="image/banner2.png"
+                         alt="Koleksi hijab Panasea Hijab"
+                         class="img-fluid hero-image">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- PRODUK -->
+    <section id="produk" class="produk-section">
+        <div class="container">
+
+            <div class="section-heading text-center">
+                <p class="subjudul">Koleksi Pilihan</p>
+                <h2>Produk Kami</h2>
+                <p>
+                    Temukan hijab favoritmu untuk melengkapi
+                    penampilan di setiap kesempatan.
+                </p>
+            </div>
+
+            <div class="row g-4">
+
+                <!-- PRODUK 1 -->
+                <div class="col-6 col-lg-3">
+                    <div class="card kartu-produk h-100">
+
+                        <!-- MASUKKAN FOTO HIJAB SEGI EMPAT DI SINI -->
+                        <img src="image/segi4.webp"
+                             class="card-img-top foto-produk"
+                             alt="Hijab Segi Empat">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Hijab Segi Empat</h5>
+                            <p class="harga">Rp35.000</p>
+
+                            <button type="button"
+                                    class="btn btn-hijab w-100 mt-auto"
+                                    onclick="pilihProduk('Hijab Segi Empat')">
+                                Beli Sekarang
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- PRODUK 2 -->
+                <div class="col-6 col-lg-3">
+                    <div class="card kartu-produk h-100">
+
+                        <!-- MASUKKAN FOTO HIJAB PASHMINA DI SINI -->
+                        <img src="image/pashmina.webp"
+                             class="card-img-top foto-produk"
+                             alt="Hijab Pashmina">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Hijab Pashmina</h5>
+                            <p class="harga">Rp45.000</p>
+
+                            <button type="button"
+                                    class="btn btn-hijab w-100 mt-auto"
+                                    onclick="pilihProduk('Hijab Pashmina')">
+                                Beli Sekarang
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- PRODUK 3 -->
+                <div class="col-6 col-lg-3">
+                    <div class="card kartu-produk h-100">
+
+                        <!-- MASUKKAN FOTO HIJAB INNER DI SINI -->
+                        <img src="image/inner.jpg"
+                             class="card-img-top foto-produk"
+                             alt="Hijab Inner">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Hijab Inner</h5>
+                            <p class="harga">Rp25.000</p>
+
+                            <button type="button"
+                                    class="btn btn-hijab w-100 mt-auto"
+                                    onclick="pilihProduk('Hijab Inner')">
+                                Beli Sekarang
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- PRODUK 4 -->
+                <div class="col-6 col-lg-3">
+                    <div class="card kartu-produk h-100">
+
+                        <!-- MASUKKAN FOTO HIJAB INSTAN DI SINI -->
+                        <img src="image/instan.jpg"
+                             class="card-img-top foto-produk"
+                             alt="Hijab Instan">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Hijab Instan</h5>
+                            <p class="harga">Rp40.000</p>
+
+                            <button type="button"
+                                    class="btn btn-hijab w-100 mt-auto"
+                                    onclick="pilihProduk('Hijab Instan')">
+                                Beli Sekarang
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- TENTANG KAMI -->
+    <section id="tentang" class="tentang-section">
+        <div class="container">
+            <div class="row align-items-center g-5">
+
+                <div class="col-lg-6">
+                    <!-- MASUKKAN FOTO TENTANG KAMI DI SINI -->
+                    <img src="image/tentang.png"
+                         alt="Tentang Panasea Hijab"
+                         class="img-fluid tentang-image">
+                </div>
+
+                <div class="col-lg-6">
+                    <p class="subjudul">Tentang Kami</p>
+
+                    <h2>Hijab Nyaman untuk Setiap Aktivitas</h2>
+
+                    <p>
+                        Panasea Hijab menyediakan berbagai pilihan hijab
+                        dengan model menarik dan nyaman digunakan.
+                        Kami ingin membantu setiap perempuan tampil
+                        percaya diri dengan gaya hijab pilihannya.
+                    </p>
+
+                    <ul class="daftar-keunggulan">
+                        <li>Model simpel dan elegan</li>
+                        <li>Nyaman digunakan sehari-hari</li>
+                        <li>Pilihan produk yang beragam</li>
+                        <li>Harga ramah di kantong</li>
+                    </ul>
+
+                    <a href="#pesan" class="btn btn-hijab mt-3">
+                        Pesan Sekarang
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- PROMO -->
+    <section class="promo-section">
+        <div class="container text-center">
+            <p class="subjudul">Panasea Hijab</p>
+
+            <h2>Lengkapi Gaya Hijabmu</h2>
+
+            <p>
+                Tampil cantik dan percaya diri dengan koleksi
+                hijab yang sesuai dengan gayamu.
+            </p>
+
+            <a href="#produk" class="btn btn-light btn-promo">
+                Jelajahi Produk
+            </a>
+        </div>
+    </section>
+
+
+    <!-- FORM PEMESANAN -->
+    <section id="pesan" class="pesan-section">
+        <div class="container">
+
+            <div class="section-heading text-center">
+                <p class="subjudul">Pemesanan</p>
+                <h2>Pesan Hijab Favoritmu</h2>
+                <p>
+                    Isi data pemesanan dengan benar
+                    untuk melihat ringkasan pesananmu.
+                </p>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="form-pemesanan">
+
+                        <form id="orderForm">
+
+                            <div class="mb-4">
+                                <label for="nama" class="form-label">
+                                    Nama Lengkap
+                                </label>
+
+                                <input type="text"
+                                       class="form-control"
+                                       id="nama"
+                                       name="nama"
+                                       placeholder="Masukkan nama lengkap"
+                                       autocomplete="name"
+                                       required>
+                            </div>
+
+                            <div class="mb-4">
+                                <label for="hp" class="form-label">
+                                    Nomor HP
+                                </label>
+
+                                <input type="tel"
+                                       class="form-control"
+                                       id="hp"
+                                       name="hp"
+                                       placeholder="Masukkan nomor HP"
+                                       autocomplete="tel"
+                                       required>
+                            </div>
+
+                            <div class="mb-4">
+                                <label for="produkPilihan" class="form-label">
+                                    Pilih Produk
+                                </label>
+
+                                <select class="form-select"
+                                        id="produkPilihan"
+                                        name="produk"
+                                        required>
+                                    <option value="">-- Pilih Produk --</option>
+                                    <option value="Hijab Segi Empat">
+                                        Hijab Segi Empat - Rp35.000
+                                    </option>
+                                    <option value="Hijab Pashmina">
+                                        Hijab Pashmina - Rp45.000
+                                    </option>
+                                    <option value="Hijab Inner">
+                                        Hijab Inner - Rp25.000
+                                    </option>
+                                    <option value="Hijab Instan">
+                                        Hijab Instan - Rp40.000
+                                    </option>
+                                </select>
+                            </div>
+
+                            <div class="mb-4">
+                                <label for="jumlah" class="form-label">
+                                    Jumlah Pesanan
+                                </label>
+
+                                <input type="number"
+                                       class="form-control"
+                                       id="jumlah"
+                                       name="jumlah"
+                                       min="1"
+                                       max="99"
+                                       value="1"
+                                       required>
+                            </div>
+
+                            <div class="mb-4">
+                                <label for="alamat" class="form-label">
+                                    Alamat Pengiriman
+                                </label>
+
+                                <textarea class="form-control"
+                                          id="alamat"
+                                          name="alamat"
+                                          rows="3"
+                                          placeholder="Masukkan alamat lengkap"
+                                          autocomplete="street-address"
+                                          required></textarea>
+                            </div>
+
+                            <div class="mb-4">
+                                <label for="catatan" class="form-label">
+                                    Catatan (Opsional)
+                                </label>
+
+                                <textarea class="form-control"
+                                          id="catatan"
+                                          name="catatan"
+                                          rows="2"
+                                          placeholder="Warna pilihan atau catatan lainnya"></textarea>
+                            </div>
+
+
+                            <!-- RINGKASAN PESANAN -->
+                            <div class="ringkasan-pesanan">
+                                <h5>Ringkasan Pesanan</h5>
+
+                                <div class="ringkasan-baris">
+                                    <span>Produk</span>
+                                    <span id="namaRingkasan">-</span>
+                                </div>
+
+                                <div class="ringkasan-baris">
+                                    <span>Harga Satuan</span>
+                                    <span id="hargaSatuan">Rp0</span>
+                                </div>
+
+                                <div class="ringkasan-baris">
+                                    <span>Jumlah</span>
+                                    <span id="jumlahRingkasan">1</span>
+                                </div>
+
+                                <hr>
+
+                                <div class="ringkasan-total">
+                                    <span>Total Harga</span>
+                                    <span id="totalHarga">Rp0</span>
+                                </div>
+
+                                <small>
+                                    Biaya pengiriman belum termasuk
+                                    dalam total harga.
+                                </small>
+                            </div>
+
+                            <button type="submit"
+                                    class="btn btn-hijab btn-kirim w-100">
+                                Kirim Pesanan
+                            </button>
+
+                        </form>
+
+                        <!-- HASIL KONFIRMASI PESANAN -->
+                        <div id="hasilPesanan"
+                             class="hasil-pesanan mt-4"
+                             hidden
+                             aria-live="polite">
+                        </div>
+
+                        <p class="catatan-demo">
+                            Catatan: pemesanan ini masih berupa simulasi
+                            dan belum tersimpan ke database.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container text-center">
+            <p>
+                &copy; 2026 Panasea Hijab.
+                Semua Hak Dilindungi.
+            </p>
+        </div>
+    </footer>
+
+
+    <!-- BUTTON KEMBALI KE ATAS -->
+    <button type="button"
+            id="btnKembaliAtas"
+            class="btn-kembali-atas"
+            aria-label="Kembali ke atas"
+            title="Kembali ke atas">
+        ↑
+    </button>
+
+
+    <!-- BOOTSTRAP JAVASCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JAVASCRIPT SENDIRI -->
+    <script src="script.js"></script>
+
+</body>
+</html>
